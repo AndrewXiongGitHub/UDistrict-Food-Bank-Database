@@ -1,0 +1,1001 @@
+ItemID,CategoryID,ItemName,ShelfLife
+1,4,Peanut Butter,2 years
+2,6,Canned Soup,3 days
+3,5,Cereal,1 week
+4,3,Rice,1 year
+5,6,Granola Bars,3 days
+6,11,Canned Vegetables,1 week
+7,11,Peanut Butter,2 years
+8,4,Pasta,1 week
+9,7,Canned Beans,1 month
+10,6,Canned Fruit,1 week
+11,4,Granola Bars,2 weeks
+12,2,Granola Bars,6 months
+13,9,Cereal,5 years
+14,2,Pasta,6 months
+15,2,Oatmeal,2 years
+16,1,Canned Soup,6 months
+17,6,Rice,5 years
+18,4,Granola Bars,1 month
+19,3,Canned Soup,5 years
+20,1,Oatmeal,3 months
+21,5,Canned Fruit,2 years
+22,2,Cereal,indefinite
+23,4,Cereal,5 years
+24,6,Oatmeal,1 year
+25,6,Canned Soup,1 month
+26,6,Cereal,3 days
+27,6,Oatmeal,indefinite
+28,9,Rice,5 years
+29,8,Oatmeal,1 week
+30,6,Oatmeal,1 week
+31,6,Canned Fruit,indefinite
+32,8,Granola Bars,2 weeks
+33,7,Cereal,3 months
+34,5,Rice,1 month
+35,3,Canned Vegetables,1 month
+36,5,Canned Vegetables,1 month
+37,10,Canned Beans,1 year
+38,6,Cereal,1 month
+39,2,Canned Fruit,1 week
+40,6,Cereal,2 weeks
+41,3,Canned Fruit,2 weeks
+42,1,Cereal,1 week
+43,6,Canned Soup,3 days
+44,6,Pasta,1 week
+45,6,Cereal,2 years
+46,2,Canned Fruit,6 months
+47,2,Peanut Butter,2 weeks
+48,6,Pasta,6 months
+49,10,Granola Bars,1 month
+50,8,Pasta,1 week
+51,9,Canned Vegetables,3 days
+52,10,Canned Vegetables,3 months
+53,5,Pasta,3 months
+54,2,Canned Soup,3 days
+55,5,Canned Beans,1 week
+56,11,Peanut Butter,2 years
+57,9,Rice,1 year
+58,2,Canned Soup,6 months
+59,10,Cereal,6 months
+60,6,Canned Vegetables,1 month
+61,3,Cereal,5 years
+62,4,Pasta,1 year
+63,1,Peanut Butter,1 week
+64,4,Canned Fruit,1 week
+65,8,Peanut Butter,3 months
+66,3,Pasta,3 days
+67,6,Granola Bars,5 years
+68,9,Canned Fruit,2 years
+69,4,Pasta,2 years
+70,2,Canned Beans,indefinite
+71,7,Cereal,2 weeks
+72,6,Canned Vegetables,3 days
+73,10,Rice,1 month
+74,9,Canned Vegetables,2 years
+75,6,Rice,1 month
+76,5,Canned Vegetables,3 days
+77,4,Granola Bars,indefinite
+78,7,Rice,3 months
+79,3,Pasta,6 months
+80,10,Cereal,1 month
+81,10,Canned Fruit,1 year
+82,1,Oatmeal,3 days
+83,6,Canned Soup,3 days
+84,7,Canned Soup,3 days
+85,3,Canned Vegetables,indefinite
+86,7,Peanut Butter,6 months
+87,1,Canned Beans,3 months
+88,9,Canned Vegetables,6 months
+89,10,Canned Soup,indefinite
+90,2,Oatmeal,3 months
+91,4,Canned Beans,6 months
+92,10,Granola Bars,indefinite
+93,5,Rice,2 years
+94,7,Cereal,3 days
+95,3,Canned Fruit,indefinite
+96,8,Canned Vegetables,6 months
+97,11,Oatmeal,1 year
+98,1,Oatmeal,indefinite
+99,5,Oatmeal,3 months
+100,8,Granola Bars,3 months
+101,9,Peanut Butter,3 days
+102,1,Pasta,5 years
+103,5,Pasta,1 week
+104,9,Rice,2 weeks
+105,10,Canned Beans,1 week
+106,4,Canned Vegetables,1 month
+107,4,Granola Bars,3 days
+108,11,Canned Soup,5 years
+109,5,Canned Beans,3 days
+110,11,Oatmeal,1 month
+111,2,Canned Vegetables,1 week
+112,8,Cereal,1 month
+113,11,Canned Soup,2 years
+114,6,Oatmeal,2 years
+115,10,Oatmeal,6 months
+116,1,Canned Soup,5 years
+117,9,Canned Soup,6 months
+118,7,Canned Soup,1 week
+119,6,Pasta,3 months
+120,11,Oatmeal,indefinite
+121,1,Granola Bars,2 weeks
+122,8,Oatmeal,2 years
+123,8,Canned Vegetables,indefinite
+124,7,Pasta,6 months
+125,5,Rice,1 week
+126,3,Cereal,2 years
+127,4,Canned Vegetables,2 weeks
+128,5,Canned Soup,indefinite
+129,7,Peanut Butter,2 years
+130,8,Oatmeal,indefinite
+131,8,Peanut Butter,6 months
+132,4,Pasta,indefinite
+133,8,Rice,3 days
+134,7,Peanut Butter,1 week
+135,6,Oatmeal,5 years
+136,8,Peanut Butter,1 year
+137,10,Canned Beans,2 years
+138,10,Canned Soup,indefinite
+139,9,Peanut Butter,1 month
+140,11,Peanut Butter,3 days
+141,11,Oatmeal,indefinite
+142,10,Canned Fruit,2 years
+143,6,Rice,indefinite
+144,3,Canned Fruit,1 week
+145,2,Canned Fruit,1 year
+146,4,Canned Fruit,1 week
+147,5,Canned Vegetables,3 days
+148,8,Peanut Butter,2 weeks
+149,3,Granola Bars,1 year
+150,1,Canned Soup,2 years
+151,8,Canned Beans,1 week
+152,1,Peanut Butter,6 months
+153,10,Peanut Butter,2 years
+154,6,Canned Fruit,1 week
+155,2,Oatmeal,6 months
+156,3,Rice,3 days
+157,5,Peanut Butter,3 days
+158,9,Canned Soup,3 months
+159,11,Canned Beans,2 weeks
+160,5,Peanut Butter,6 months
+161,1,Oatmeal,5 years
+162,2,Granola Bars,2 years
+163,5,Canned Soup,indefinite
+164,1,Canned Vegetables,5 years
+165,10,Cereal,2 years
+166,3,Canned Vegetables,1 month
+167,4,Canned Vegetables,1 week
+168,5,Granola Bars,6 months
+169,1,Peanut Butter,1 week
+170,5,Granola Bars,3 months
+171,2,Canned Fruit,3 days
+172,3,Canned Fruit,6 months
+173,1,Peanut Butter,5 years
+174,9,Canned Beans,5 years
+175,4,Canned Soup,6 months
+176,10,Cereal,1 month
+177,9,Oatmeal,indefinite
+178,11,Canned Beans,1 week
+179,7,Cereal,3 days
+180,4,Canned Vegetables,2 weeks
+181,10,Pasta,1 month
+182,1,Pasta,indefinite
+183,9,Cereal,5 years
+184,3,Granola Bars,1 month
+185,2,Canned Soup,1 week
+186,8,Canned Soup,1 month
+187,4,Peanut Butter,indefinite
+188,8,Oatmeal,6 months
+189,4,Peanut Butter,6 months
+190,5,Peanut Butter,3 months
+191,1,Cereal,3 days
+192,2,Oatmeal,5 years
+193,4,Granola Bars,3 months
+194,11,Cereal,5 years
+195,7,Granola Bars,2 years
+196,1,Cereal,2 years
+197,4,Granola Bars,1 month
+198,3,Rice,2 weeks
+199,6,Canned Soup,2 weeks
+200,4,Peanut Butter,2 weeks
+201,10,Canned Beans,3 months
+202,9,Canned Fruit,5 years
+203,4,Peanut Butter,3 days
+204,7,Canned Soup,1 month
+205,2,Pasta,6 months
+206,6,Peanut Butter,1 year
+207,8,Canned Vegetables,1 month
+208,6,Rice,6 months
+209,6,Oatmeal,1 month
+210,7,Canned Vegetables,indefinite
+211,7,Oatmeal,3 days
+212,2,Pasta,1 week
+213,2,Peanut Butter,3 months
+214,9,Canned Soup,indefinite
+215,8,Cereal,2 weeks
+216,1,Pasta,2 years
+217,7,Peanut Butter,1 year
+218,9,Cereal,1 week
+219,10,Granola Bars,5 years
+220,1,Canned Beans,indefinite
+221,7,Canned Fruit,2 weeks
+222,11,Granola Bars,2 years
+223,3,Oatmeal,3 months
+224,9,Granola Bars,5 years
+225,3,Cereal,3 days
+226,1,Canned Fruit,1 week
+227,11,Canned Vegetables,1 week
+228,9,Peanut Butter,1 month
+229,5,Cereal,3 days
+230,9,Canned Soup,2 years
+231,11,Canned Soup,5 years
+232,8,Peanut Butter,6 months
+233,3,Canned Soup,2 weeks
+234,8,Pasta,indefinite
+235,5,Canned Beans,indefinite
+236,2,Cereal,1 year
+237,3,Canned Beans,1 year
+238,2,Pasta,1 year
+239,8,Peanut Butter,5 years
+240,11,Peanut Butter,3 days
+241,10,Canned Beans,2 years
+242,2,Canned Fruit,3 days
+243,7,Canned Soup,5 years
+244,5,Granola Bars,3 months
+245,10,Cereal,1 month
+246,2,Canned Fruit,6 months
+247,4,Cereal,2 years
+248,11,Granola Bars,6 months
+249,10,Rice,6 months
+250,9,Peanut Butter,1 year
+251,10,Pasta,5 years
+252,8,Canned Soup,3 months
+253,2,Canned Vegetables,3 days
+254,10,Canned Beans,6 months
+255,4,Rice,1 week
+256,10,Cereal,indefinite
+257,8,Pasta,1 year
+258,1,Cereal,2 years
+259,2,Canned Beans,3 months
+260,4,Granola Bars,1 week
+261,11,Canned Vegetables,6 months
+262,4,Canned Fruit,3 months
+263,7,Canned Soup,3 days
+264,3,Rice,2 weeks
+265,6,Canned Vegetables,1 month
+266,4,Canned Vegetables,5 years
+267,9,Rice,1 week
+268,6,Canned Vegetables,5 years
+269,1,Rice,5 years
+270,4,Pasta,5 years
+271,1,Granola Bars,1 month
+272,4,Pasta,1 year
+273,10,Pasta,1 year
+274,10,Canned Fruit,1 year
+275,8,Cereal,3 days
+276,10,Oatmeal,2 years
+277,10,Rice,3 months
+278,8,Canned Soup,5 years
+279,1,Canned Fruit,2 weeks
+280,3,Canned Soup,1 month
+281,10,Canned Fruit,1 year
+282,4,Canned Fruit,2 weeks
+283,5,Cereal,3 days
+284,11,Canned Fruit,1 month
+285,5,Cereal,1 year
+286,7,Canned Soup,1 year
+287,7,Peanut Butter,3 months
+288,11,Peanut Butter,1 week
+289,11,Canned Fruit,2 years
+290,6,Granola Bars,6 months
+291,5,Rice,3 months
+292,4,Oatmeal,1 week
+293,5,Canned Fruit,1 year
+294,9,Cereal,5 years
+295,10,Granola Bars,3 months
+296,3,Canned Fruit,2 years
+297,10,Canned Fruit,2 weeks
+298,10,Canned Vegetables,2 weeks
+299,6,Granola Bars,5 years
+300,6,Canned Vegetables,6 months
+301,8,Rice,6 months
+302,5,Peanut Butter,2 weeks
+303,11,Canned Fruit,3 days
+304,9,Granola Bars,3 days
+305,2,Canned Beans,1 month
+306,8,Canned Beans,1 year
+307,9,Peanut Butter,2 years
+308,5,Canned Vegetables,1 month
+309,4,Oatmeal,1 month
+310,8,Cereal,2 weeks
+311,6,Canned Beans,1 month
+312,10,Peanut Butter,2 weeks
+313,7,Canned Fruit,3 months
+314,4,Oatmeal,indefinite
+315,10,Peanut Butter,1 year
+316,2,Peanut Butter,3 days
+317,11,Rice,indefinite
+318,5,Canned Beans,indefinite
+319,5,Canned Beans,6 months
+320,1,Cereal,5 years
+321,1,Cereal,1 week
+322,2,Pasta,indefinite
+323,11,Canned Soup,3 days
+324,9,Pasta,3 months
+325,10,Canned Soup,1 month
+326,10,Canned Beans,1 week
+327,1,Canned Fruit,6 months
+328,6,Peanut Butter,3 days
+329,8,Canned Beans,3 days
+330,3,Canned Fruit,3 months
+331,8,Rice,2 weeks
+332,10,Rice,2 weeks
+333,9,Rice,2 years
+334,11,Canned Beans,indefinite
+335,6,Canned Vegetables,1 week
+336,5,Granola Bars,1 year
+337,7,Canned Vegetables,1 year
+338,9,Canned Soup,5 years
+339,6,Rice,2 weeks
+340,4,Canned Fruit,1 year
+341,10,Canned Vegetables,6 months
+342,8,Canned Beans,1 week
+343,2,Canned Fruit,1 month
+344,1,Pasta,1 week
+345,5,Oatmeal,2 years
+346,4,Pasta,6 months
+347,1,Canned Soup,1 week
+348,3,Canned Vegetables,indefinite
+349,2,Oatmeal,indefinite
+350,4,Oatmeal,3 months
+351,7,Canned Soup,2 weeks
+352,5,Oatmeal,2 weeks
+353,5,Peanut Butter,2 weeks
+354,3,Cereal,6 months
+355,9,Cereal,1 week
+356,10,Cereal,2 years
+357,11,Oatmeal,3 months
+358,4,Granola Bars,2 years
+359,10,Granola Bars,1 month
+360,7,Canned Vegetables,1 month
+361,9,Canned Fruit,6 months
+362,2,Rice,2 years
+363,11,Canned Beans,indefinite
+364,9,Peanut Butter,1 month
+365,11,Granola Bars,3 days
+366,5,Canned Beans,1 year
+367,8,Cereal,1 week
+368,6,Granola Bars,2 years
+369,10,Canned Fruit,1 month
+370,6,Canned Beans,indefinite
+371,10,Granola Bars,3 months
+372,5,Peanut Butter,1 month
+373,7,Canned Vegetables,6 months
+374,1,Granola Bars,2 weeks
+375,4,Canned Beans,2 years
+376,1,Cereal,2 years
+377,10,Canned Fruit,1 month
+378,3,Cereal,3 days
+379,1,Granola Bars,6 months
+380,8,Granola Bars,indefinite
+381,6,Cereal,indefinite
+382,10,Canned Beans,2 weeks
+383,5,Oatmeal,indefinite
+384,7,Pasta,5 years
+385,3,Oatmeal,3 days
+386,9,Canned Beans,1 year
+387,4,Peanut Butter,2 weeks
+388,1,Granola Bars,3 days
+389,1,Cereal,3 months
+390,7,Canned Vegetables,1 year
+391,10,Cereal,3 days
+392,10,Canned Fruit,6 months
+393,7,Cereal,1 week
+394,4,Pasta,1 month
+395,2,Canned Soup,indefinite
+396,11,Canned Beans,1 year
+397,11,Canned Fruit,1 month
+398,3,Pasta,6 months
+399,3,Canned Soup,2 years
+400,11,Canned Vegetables,2 years
+401,10,Canned Fruit,2 years
+402,9,Canned Fruit,6 months
+403,6,Granola Bars,1 year
+404,1,Canned Soup,1 month
+405,11,Pasta,1 week
+406,11,Cereal,3 days
+407,4,Rice,3 months
+408,7,Rice,1 week
+409,8,Peanut Butter,1 week
+410,3,Canned Soup,5 years
+411,10,Canned Beans,3 months
+412,7,Canned Fruit,3 months
+413,9,Canned Soup,indefinite
+414,3,Granola Bars,2 years
+415,2,Canned Beans,indefinite
+416,3,Granola Bars,3 months
+417,4,Pasta,2 weeks
+418,9,Peanut Butter,6 months
+419,6,Canned Fruit,1 year
+420,7,Peanut Butter,3 days
+421,11,Canned Vegetables,3 days
+422,3,Cereal,3 days
+423,9,Pasta,2 weeks
+424,2,Peanut Butter,indefinite
+425,10,Canned Vegetables,indefinite
+426,9,Canned Fruit,indefinite
+427,11,Canned Vegetables,1 year
+428,5,Canned Vegetables,3 days
+429,7,Canned Vegetables,1 week
+430,5,Rice,2 years
+431,9,Cereal,1 year
+432,1,Cereal,2 weeks
+433,5,Canned Fruit,1 year
+434,8,Rice,indefinite
+435,2,Canned Vegetables,1 week
+436,1,Canned Vegetables,1 week
+437,7,Granola Bars,1 month
+438,4,Granola Bars,indefinite
+439,1,Cereal,2 weeks
+440,2,Cereal,1 year
+441,9,Peanut Butter,2 years
+442,7,Peanut Butter,3 months
+443,1,Rice,1 month
+444,8,Oatmeal,3 days
+445,9,Peanut Butter,1 week
+446,4,Cereal,1 week
+447,2,Peanut Butter,2 years
+448,2,Canned Vegetables,3 months
+449,8,Oatmeal,1 week
+450,5,Canned Vegetables,6 months
+451,4,Granola Bars,1 year
+452,5,Cereal,1 month
+453,5,Canned Beans,1 year
+454,5,Peanut Butter,2 years
+455,10,Granola Bars,1 year
+456,6,Canned Vegetables,5 years
+457,8,Peanut Butter,5 years
+458,4,Canned Beans,3 days
+459,4,Oatmeal,1 week
+460,8,Granola Bars,indefinite
+461,8,Canned Beans,5 years
+462,8,Cereal,6 months
+463,7,Pasta,2 years
+464,11,Canned Beans,2 weeks
+465,6,Peanut Butter,2 years
+466,2,Canned Beans,5 years
+467,8,Canned Fruit,indefinite
+468,3,Canned Soup,3 months
+469,8,Canned Vegetables,indefinite
+470,7,Canned Vegetables,1 month
+471,5,Canned Beans,3 days
+472,5,Peanut Butter,2 weeks
+473,3,Rice,5 years
+474,9,Rice,3 months
+475,7,Pasta,indefinite
+476,7,Canned Soup,5 years
+477,6,Peanut Butter,3 days
+478,7,Granola Bars,indefinite
+479,1,Canned Beans,indefinite
+480,4,Canned Soup,3 months
+481,11,Canned Vegetables,3 days
+482,5,Oatmeal,3 months
+483,9,Pasta,2 weeks
+484,8,Pasta,2 weeks
+485,5,Canned Soup,1 month
+486,5,Rice,3 days
+487,10,Rice,1 month
+488,2,Oatmeal,2 weeks
+489,5,Canned Beans,3 days
+490,6,Cereal,1 year
+491,1,Canned Soup,indefinite
+492,4,Cereal,3 days
+493,8,Canned Fruit,indefinite
+494,4,Granola Bars,1 year
+495,3,Cereal,1 week
+496,4,Oatmeal,5 years
+497,3,Canned Soup,1 week
+498,7,Pasta,indefinite
+499,3,Canned Fruit,5 years
+500,8,Pasta,1 month
+501,2,Canned Vegetables,5 years
+502,9,Canned Beans,1 year
+503,6,Oatmeal,1 month
+504,6,Granola Bars,6 months
+505,3,Granola Bars,5 years
+506,10,Rice,1 year
+507,11,Canned Fruit,1 week
+508,10,Canned Soup,2 years
+509,7,Cereal,2 years
+510,6,Canned Beans,2 weeks
+511,1,Canned Soup,2 years
+512,1,Oatmeal,3 days
+513,1,Canned Soup,1 month
+514,5,Canned Fruit,1 year
+515,11,Cereal,2 weeks
+516,2,Granola Bars,1 month
+517,9,Canned Vegetables,indefinite
+518,4,Cereal,2 years
+519,5,Canned Vegetables,1 week
+520,1,Oatmeal,1 week
+521,4,Canned Fruit,3 months
+522,7,Canned Fruit,2 years
+523,7,Cereal,2 years
+524,10,Peanut Butter,2 years
+525,6,Canned Fruit,6 months
+526,4,Cereal,1 week
+527,3,Peanut Butter,5 years
+528,2,Canned Fruit,indefinite
+529,9,Canned Soup,indefinite
+530,10,Canned Vegetables,1 year
+531,4,Canned Fruit,3 days
+532,4,Peanut Butter,5 years
+533,2,Cereal,2 weeks
+534,8,Granola Bars,1 month
+535,1,Canned Vegetables,indefinite
+536,1,Peanut Butter,1 month
+537,8,Rice,5 years
+538,3,Canned Soup,2 weeks
+539,1,Granola Bars,5 years
+540,1,Canned Beans,2 weeks
+541,3,Pasta,2 weeks
+542,6,Canned Beans,2 years
+543,3,Peanut Butter,3 days
+544,2,Rice,2 weeks
+545,4,Pasta,5 years
+546,2,Granola Bars,6 months
+547,9,Oatmeal,3 days
+548,11,Granola Bars,1 month
+549,5,Canned Fruit,2 years
+550,5,Oatmeal,2 years
+551,10,Canned Fruit,1 year
+552,5,Pasta,1 week
+553,6,Canned Vegetables,3 months
+554,3,Canned Beans,indefinite
+555,8,Canned Soup,3 days
+556,5,Peanut Butter,5 years
+557,4,Canned Soup,indefinite
+558,7,Canned Soup,1 year
+559,8,Canned Soup,3 months
+560,7,Granola Bars,6 months
+561,4,Cereal,1 month
+562,10,Cereal,2 years
+563,2,Oatmeal,1 month
+564,11,Peanut Butter,2 years
+565,5,Canned Soup,3 months
+566,3,Granola Bars,6 months
+567,9,Canned Fruit,5 years
+568,9,Pasta,2 weeks
+569,10,Granola Bars,indefinite
+570,8,Peanut Butter,3 months
+571,9,Canned Fruit,indefinite
+572,5,Canned Soup,3 months
+573,6,Canned Fruit,5 years
+574,4,Rice,1 year
+575,1,Peanut Butter,indefinite
+576,6,Granola Bars,6 months
+577,7,Oatmeal,5 years
+578,7,Canned Soup,1 year
+579,9,Rice,2 years
+580,6,Pasta,1 week
+581,6,Canned Beans,5 years
+582,6,Oatmeal,1 month
+583,1,Canned Vegetables,indefinite
+584,5,Rice,2 years
+585,9,Granola Bars,indefinite
+586,8,Canned Vegetables,3 days
+587,6,Cereal,indefinite
+588,3,Oatmeal,indefinite
+589,9,Cereal,6 months
+590,9,Canned Soup,2 weeks
+591,7,Canned Fruit,2 years
+592,7,Canned Vegetables,3 months
+593,4,Peanut Butter,3 months
+594,5,Rice,2 years
+595,6,Granola Bars,3 months
+596,8,Peanut Butter,indefinite
+597,3,Canned Soup,2 weeks
+598,7,Rice,1 week
+599,2,Cereal,2 years
+600,4,Pasta,indefinite
+601,11,Cereal,indefinite
+602,9,Cereal,3 months
+603,8,Canned Vegetables,5 years
+604,5,Pasta,2 weeks
+605,6,Canned Soup,2 years
+606,2,Canned Fruit,1 year
+607,5,Canned Vegetables,2 weeks
+608,8,Pasta,1 week
+609,5,Oatmeal,5 years
+610,5,Granola Bars,2 years
+611,1,Pasta,2 years
+612,10,Canned Beans,1 month
+613,4,Cereal,1 week
+614,8,Oatmeal,3 months
+615,5,Peanut Butter,5 years
+616,4,Granola Bars,1 month
+617,11,Peanut Butter,indefinite
+618,6,Pasta,3 months
+619,11,Cereal,3 days
+620,1,Pasta,5 years
+621,1,Pasta,indefinite
+622,10,Cereal,3 days
+623,7,Cereal,6 months
+624,8,Granola Bars,2 weeks
+625,11,Rice,6 months
+626,4,Oatmeal,3 days
+627,8,Oatmeal,1 month
+628,5,Granola Bars,1 year
+629,7,Canned Fruit,6 months
+630,9,Canned Vegetables,2 weeks
+631,6,Cereal,6 months
+632,5,Rice,5 years
+633,11,Canned Fruit,2 years
+634,5,Rice,1 week
+635,1,Rice,2 years
+636,1,Oatmeal,1 week
+637,7,Pasta,5 years
+638,9,Peanut Butter,1 week
+639,5,Pasta,3 days
+640,1,Canned Soup,1 month
+641,11,Granola Bars,1 year
+642,2,Canned Vegetables,5 years
+643,11,Granola Bars,3 days
+644,4,Peanut Butter,5 years
+645,6,Canned Beans,3 months
+646,11,Granola Bars,2 weeks
+647,10,Peanut Butter,3 days
+648,5,Canned Fruit,2 weeks
+649,6,Cereal,1 week
+650,11,Canned Soup,1 month
+651,3,Canned Soup,3 days
+652,7,Pasta,2 weeks
+653,10,Peanut Butter,indefinite
+654,6,Cereal,3 days
+655,8,Oatmeal,1 week
+656,10,Granola Bars,3 months
+657,3,Peanut Butter,indefinite
+658,7,Cereal,3 months
+659,6,Canned Beans,5 years
+660,5,Peanut Butter,6 months
+661,7,Canned Vegetables,1 week
+662,1,Rice,5 years
+663,7,Canned Fruit,2 weeks
+664,9,Rice,6 months
+665,10,Rice,indefinite
+666,6,Canned Soup,1 week
+667,10,Rice,3 days
+668,4,Canned Fruit,3 days
+669,5,Pasta,1 month
+670,7,Peanut Butter,2 weeks
+671,7,Peanut Butter,3 days
+672,9,Canned Vegetables,2 years
+673,2,Canned Vegetables,2 years
+674,2,Canned Beans,6 months
+675,6,Cereal,2 weeks
+676,4,Cereal,1 month
+677,3,Canned Beans,6 months
+678,3,Pasta,6 months
+679,3,Peanut Butter,1 month
+680,6,Rice,1 month
+681,5,Pasta,1 week
+682,1,Granola Bars,6 months
+683,4,Peanut Butter,3 days
+684,10,Oatmeal,3 days
+685,1,Cereal,1 month
+686,4,Granola Bars,indefinite
+687,11,Canned Beans,indefinite
+688,3,Canned Fruit,2 years
+689,5,Canned Beans,2 weeks
+690,10,Peanut Butter,2 years
+691,4,Canned Vegetables,5 years
+692,10,Oatmeal,1 month
+693,6,Oatmeal,1 week
+694,4,Canned Fruit,1 year
+695,7,Peanut Butter,1 week
+696,5,Rice,3 months
+697,6,Canned Soup,2 years
+698,8,Granola Bars,6 months
+699,8,Peanut Butter,2 years
+700,6,Peanut Butter,1 month
+701,11,Canned Fruit,2 weeks
+702,10,Pasta,2 weeks
+703,6,Canned Beans,3 days
+704,5,Canned Vegetables,6 months
+705,3,Canned Fruit,3 months
+706,3,Oatmeal,1 week
+707,9,Rice,indefinite
+708,3,Pasta,2 years
+709,8,Canned Beans,2 years
+710,8,Peanut Butter,1 year
+711,2,Canned Fruit,3 days
+712,5,Canned Soup,3 days
+713,9,Rice,2 years
+714,2,Rice,2 years
+715,11,Canned Beans,1 week
+716,10,Granola Bars,2 years
+717,4,Canned Fruit,1 year
+718,7,Rice,3 days
+719,2,Peanut Butter,3 days
+720,5,Canned Beans,5 years
+721,8,Canned Vegetables,6 months
+722,9,Canned Soup,3 days
+723,11,Peanut Butter,1 year
+724,9,Canned Soup,2 weeks
+725,4,Granola Bars,5 years
+726,1,Canned Fruit,3 months
+727,5,Granola Bars,3 days
+728,6,Canned Fruit,3 months
+729,7,Canned Fruit,1 year
+730,8,Pasta,1 year
+731,6,Canned Vegetables,indefinite
+732,8,Canned Beans,1 year
+733,11,Oatmeal,3 months
+734,3,Canned Vegetables,indefinite
+735,8,Canned Beans,5 years
+736,11,Cereal,6 months
+737,7,Peanut Butter,1 year
+738,11,Canned Beans,3 days
+739,3,Rice,3 days
+740,6,Canned Vegetables,6 months
+741,9,Canned Soup,1 year
+742,11,Peanut Butter,3 days
+743,6,Granola Bars,indefinite
+744,5,Cereal,indefinite
+745,8,Canned Soup,1 month
+746,4,Granola Bars,3 months
+747,6,Rice,1 week
+748,10,Granola Bars,indefinite
+749,9,Canned Soup,1 year
+750,6,Canned Beans,6 months
+751,10,Oatmeal,2 weeks
+752,3,Rice,2 weeks
+753,11,Rice,indefinite
+754,1,Oatmeal,1 week
+755,4,Oatmeal,1 week
+756,6,Peanut Butter,1 year
+757,8,Pasta,1 month
+758,6,Granola Bars,6 months
+759,9,Cereal,2 years
+760,7,Canned Soup,2 years
+761,4,Peanut Butter,1 week
+762,6,Oatmeal,2 weeks
+763,11,Canned Fruit,1 year
+764,5,Canned Vegetables,3 days
+765,4,Peanut Butter,3 days
+766,6,Granola Bars,6 months
+767,9,Peanut Butter,2 weeks
+768,4,Canned Vegetables,1 week
+769,10,Cereal,2 weeks
+770,5,Peanut Butter,2 years
+771,6,Peanut Butter,2 years
+772,4,Canned Beans,indefinite
+773,5,Canned Beans,5 years
+774,8,Peanut Butter,1 year
+775,4,Cereal,1 month
+776,11,Canned Vegetables,3 days
+777,3,Pasta,3 days
+778,8,Canned Beans,6 months
+779,11,Rice,3 months
+780,11,Peanut Butter,1 week
+781,2,Cereal,2 weeks
+782,4,Canned Vegetables,1 year
+783,6,Canned Soup,5 years
+784,5,Pasta,3 days
+785,8,Canned Vegetables,2 weeks
+786,8,Canned Vegetables,1 week
+787,10,Canned Soup,1 year
+788,7,Rice,1 week
+789,10,Canned Soup,6 months
+790,5,Canned Fruit,1 week
+791,7,Canned Fruit,2 years
+792,2,Canned Fruit,3 months
+793,7,Pasta,6 months
+794,1,Canned Soup,2 weeks
+795,7,Canned Beans,indefinite
+796,2,Oatmeal,1 year
+797,2,Rice,2 years
+798,4,Canned Fruit,1 year
+799,8,Granola Bars,2 weeks
+800,10,Rice,2 weeks
+801,7,Granola Bars,1 week
+802,11,Cereal,3 months
+803,9,Granola Bars,5 years
+804,3,Granola Bars,3 days
+805,10,Canned Fruit,2 years
+806,2,Canned Soup,3 days
+807,5,Cereal,2 weeks
+808,9,Oatmeal,3 months
+809,9,Canned Soup,2 weeks
+810,6,Canned Fruit,2 weeks
+811,8,Canned Fruit,6 months
+812,4,Rice,5 years
+813,7,Canned Vegetables,3 days
+814,10,Rice,3 months
+815,8,Granola Bars,1 year
+816,9,Canned Vegetables,3 days
+817,7,Rice,1 year
+818,7,Peanut Butter,5 years
+819,6,Rice,1 year
+820,10,Canned Vegetables,1 week
+821,2,Canned Vegetables,1 month
+822,7,Canned Beans,2 years
+823,9,Canned Beans,1 month
+824,1,Pasta,1 week
+825,5,Canned Fruit,3 days
+826,8,Canned Vegetables,6 months
+827,9,Rice,1 week
+828,4,Canned Beans,5 years
+829,6,Rice,1 year
+830,1,Canned Fruit,2 years
+831,5,Canned Vegetables,3 months
+832,3,Canned Soup,1 year
+833,3,Cereal,1 week
+834,3,Oatmeal,1 month
+835,1,Canned Fruit,5 years
+836,1,Rice,3 days
+837,9,Peanut Butter,3 months
+838,11,Rice,6 months
+839,9,Granola Bars,1 month
+840,2,Canned Vegetables,2 weeks
+841,9,Rice,1 year
+842,8,Rice,5 years
+843,5,Canned Soup,2 years
+844,6,Canned Fruit,6 months
+845,9,Peanut Butter,indefinite
+846,3,Granola Bars,indefinite
+847,1,Cereal,2 years
+848,6,Cereal,3 days
+849,7,Canned Soup,1 year
+850,9,Pasta,1 year
+851,8,Canned Soup,1 month
+852,5,Pasta,2 weeks
+853,9,Canned Soup,1 month
+854,8,Canned Fruit,5 years
+855,3,Pasta,6 months
+856,6,Granola Bars,6 months
+857,5,Canned Fruit,6 months
+858,7,Cereal,6 months
+859,6,Canned Beans,3 months
+860,7,Granola Bars,2 weeks
+861,9,Oatmeal,indefinite
+862,11,Canned Vegetables,1 month
+863,10,Canned Soup,5 years
+864,4,Granola Bars,6 months
+865,7,Rice,2 weeks
+866,6,Canned Beans,3 days
+867,3,Canned Soup,1 week
+868,11,Pasta,1 week
+869,11,Canned Beans,5 years
+870,1,Rice,6 months
+871,7,Canned Beans,3 months
+872,9,Oatmeal,1 year
+873,4,Cereal,3 days
+874,8,Canned Vegetables,2 years
+875,6,Canned Soup,2 years
+876,7,Oatmeal,2 years
+877,11,Canned Fruit,5 years
+878,10,Canned Soup,3 days
+879,7,Cereal,2 weeks
+880,8,Peanut Butter,indefinite
+881,1,Canned Soup,indefinite
+882,10,Pasta,1 month
+883,7,Canned Beans,5 years
+884,3,Pasta,2 years
+885,1,Granola Bars,3 months
+886,9,Pasta,3 days
+887,6,Peanut Butter,1 year
+888,11,Peanut Butter,5 years
+889,11,Canned Beans,1 week
+890,8,Canned Fruit,6 months
+891,8,Pasta,3 days
+892,2,Granola Bars,2 years
+893,4,Oatmeal,1 year
+894,1,Rice,6 months
+895,9,Oatmeal,indefinite
+896,10,Canned Fruit,6 months
+897,6,Granola Bars,2 years
+898,5,Cereal,1 year
+899,11,Rice,1 week
+900,4,Canned Soup,1 month
+901,3,Peanut Butter,3 days
+902,5,Canned Fruit,3 days
+903,8,Canned Soup,1 month
+904,5,Canned Beans,3 days
+905,3,Canned Beans,3 months
+906,6,Cereal,2 years
+907,7,Pasta,1 week
+908,2,Canned Vegetables,6 months
+909,3,Oatmeal,1 week
+910,6,Canned Beans,2 weeks
+911,1,Granola Bars,2 years
+912,3,Cereal,2 years
+913,4,Canned Vegetables,indefinite
+914,5,Oatmeal,1 month
+915,11,Cereal,5 years
+916,1,Oatmeal,2 years
+917,10,Granola Bars,6 months
+918,5,Oatmeal,2 weeks
+919,10,Cereal,3 months
+920,9,Cereal,1 year
+921,11,Canned Beans,6 months
+922,5,Canned Soup,1 year
+923,9,Canned Fruit,1 year
+924,2,Pasta,1 month
+925,4,Canned Soup,5 years
+926,10,Canned Soup,3 months
+927,1,Oatmeal,5 years
+928,10,Canned Vegetables,1 week
+929,8,Oatmeal,6 months
+930,5,Rice,1 year
+931,1,Peanut Butter,3 days
+932,7,Pasta,2 weeks
+933,8,Cereal,1 month
+934,4,Cereal,2 weeks
+935,6,Canned Vegetables,2 weeks
+936,9,Canned Vegetables,6 months
+937,7,Peanut Butter,3 months
+938,7,Granola Bars,indefinite
+939,2,Peanut Butter,2 weeks
+940,4,Granola Bars,2 years
+941,8,Peanut Butter,indefinite
+942,2,Granola Bars,3 months
+943,9,Peanut Butter,3 days
+944,1,Peanut Butter,1 year
+945,5,Rice,6 months
+946,7,Pasta,1 week
+947,3,Canned Vegetables,6 months
+948,2,Cereal,3 months
+949,6,Rice,6 months
+950,3,Canned Beans,2 years
+951,7,Canned Soup,5 years
+952,7,Oatmeal,3 months
+953,10,Canned Vegetables,3 days
+954,2,Granola Bars,1 month
+955,5,Canned Soup,2 years
+956,10,Canned Fruit,5 years
+957,11,Canned Soup,3 months
+958,11,Granola Bars,6 months
+959,7,Canned Beans,1 month
+960,1,Canned Fruit,3 days
+961,11,Cereal,2 weeks
+962,2,Granola Bars,5 years
+963,1,Rice,2 weeks
+964,2,Rice,2 years
+965,11,Granola Bars,1 month
+966,1,Rice,2 years
+967,7,Canned Beans,5 years
+968,3,Rice,indefinite
+969,11,Oatmeal,6 months
+970,10,Oatmeal,5 years
+971,8,Granola Bars,5 years
+972,1,Rice,2 years
+973,8,Canned Fruit,3 months
+974,6,Peanut Butter,indefinite
+975,9,Canned Fruit,indefinite
+976,4,Oatmeal,2 weeks
+977,4,Canned Fruit,3 months
+978,8,Granola Bars,3 days
+979,6,Cereal,1 week
+980,1,Canned Beans,1 week
+981,4,Peanut Butter,1 month
+982,1,Peanut Butter,indefinite
+983,7,Oatmeal,5 years
+984,7,Cereal,1 year
+985,3,Pasta,1 week
+986,11,Canned Soup,3 months
+987,2,Pasta,1 week
+988,5,Oatmeal,3 months
+989,1,Canned Fruit,1 week
+990,9,Cereal,3 months
+991,8,Canned Vegetables,2 weeks
+992,3,Rice,indefinite
+993,8,Granola Bars,indefinite
+994,1,Granola Bars,5 years
+995,7,Canned Soup,indefinite
+996,4,Oatmeal,1 month
+997,6,Pasta,2 weeks
+998,1,Cereal,1 year
+999,7,Canned Vegetables,3 months
+1000,7,Canned Soup,6 months
