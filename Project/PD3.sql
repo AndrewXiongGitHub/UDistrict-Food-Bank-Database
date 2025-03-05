@@ -232,6 +232,17 @@ WITH (
     FIRSTROW = 2
 );
 
+-- Adding Check Constraint, Deafult Contraint, Computed Column to Distributions Table
+
+ALTER TABLE Distributions 
+ADD CONSTRAINT CHK_QuantityDistributed CHECK (QuantityDistributed >= 0);
+
+ALTER TABLE Distributions 
+ADD CONSTRAINT DF_DistributionDate DEFAULT GETDATE() FOR DistributionDate;
+
+ALTER TABLE Distributions 
+ADD TotalItemsDistributed AS (QuantityDistributed * 1);
+
 SELECT * FROM Distributions
 
 
@@ -275,3 +286,17 @@ FOREIGN KEY (ItemID) REFERENCES Items(ItemID);
 ALTER TABLE Distributions
 ADD CONSTRAINT FK_Distributions_Volunteers
 FOREIGN KEY (VolunteerID) REFERENCES Volunteers(VolunteerID);
+
+-- Get the total number of items distributed to a recipient
+CREATE FUNCTION dbo.GetTotalDistributed(@RecipientID INT)
+RETURNS INT
+AS
+BEGIN
+    DECLARE @Total INT;
+    
+    SELECT @Total = SUM(QuantityDistributed)
+    FROM Distributions
+    WHERE RecipientID = @RecipientID;
+
+    RETURN COALESCE(@Total, 0);
+END;
