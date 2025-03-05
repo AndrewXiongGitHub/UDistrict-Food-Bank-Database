@@ -287,6 +287,9 @@ ADD CONSTRAINT CHK_Volunteer_Role_ShiftEnd_GreaterThan_ShiftStart CHECK (ShiftEn
 ALTER TABLE Distributions 
 ADD CONSTRAINT CHK_QuantityDistributed CHECK (QuantityDistributed >= 0);
 
+ALTER TABLE Inventory
+ADD CONSTRAINT CHK_Inventory_ExpirationDate_Future CHECK (ExpirationDate > GETDATE());
+
 -- DEFAULT CONSTRAINTS
 ALTER TABLE Distributions
 ADD CONSTRAINT DF_Distributions_DistributionDate_Default DEFAULT GETDATE() FOR DistributionDate;
@@ -296,6 +299,9 @@ ADD CONSTRAINT DF_Donor_Item_DonationDate_Default DEFAULT GETDATE() FOR Donation
 
 ALTER TABLE Events
 ADD CONSTRAINT DF_Events_StartTime_Default DEFAULT '06:00:00' FOR StartTime;
+
+ALTER TABLE Items
+ADD CONSTRAINT DF_Items_ShelfLife_Default DEFAULT 'Unknown' FOR ShelfLife;
 
 GO
 
@@ -372,6 +378,7 @@ ALTER TABLE Events
 ADD VolunteerCount AS dbo.CalculateEventVolunteerCount(EventID);
 GO
 
-
-
+-- Computed column (contains subquery): TotalItemsDistributed
+ALTER TABLE Recipients
+ADD TotalItemsDistributed AS (SELECT SUM(QuantityDistributed) FROM Distributions WHERE Recipients.RecipientID = Distributions.RecipientID);
 GO
