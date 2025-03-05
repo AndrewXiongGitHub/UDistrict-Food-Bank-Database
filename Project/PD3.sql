@@ -212,7 +212,7 @@ WITH (
 SELECT * FROM Recipients
 
 
---Distriutions
+--Distributions
 DROP TABLE IF EXISTS Distributions;
 CREATE TABLE Distributions (
     DistributionID INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
@@ -231,17 +231,6 @@ WITH (
     ROWTERMINATOR = '\n',
     FIRSTROW = 2
 );
-
--- Adding Check Constraint, Deafult Contraint, Computed Column to Distributions Table
-
-ALTER TABLE Distributions 
-ADD CONSTRAINT CHK_QuantityDistributed CHECK (QuantityDistributed >= 0);
-
-ALTER TABLE Distributions 
-ADD CONSTRAINT DF_DistributionDate DEFAULT GETDATE() FOR DistributionDate;
-
-ALTER TABLE Distributions 
-ADD TotalItemsDistributed AS (QuantityDistributed * 1);
 
 SELECT * FROM Distributions
 
@@ -287,7 +276,71 @@ ALTER TABLE Distributions
 ADD CONSTRAINT FK_Distributions_Volunteers
 FOREIGN KEY (VolunteerID) REFERENCES Volunteers(VolunteerID);
 
--- Get the total number of items distributed to a recipient
+
+-- CHECK CONSTRAINTS
+ALTER TABLE Inventory
+ADD CONSTRAINT CHK_Inventory_QuantityOnHand_NonNegative CHECK (QuantityOnHand >= 0);
+
+ALTER TABLE Volunteer_Role
+ADD CONSTRAINT CHK_Volunteer_Role_ShiftEnd_GreaterThan_ShiftStart CHECK (ShiftEnd > ShiftStart);
+
+ALTER TABLE Distributions 
+ADD CONSTRAINT CHK_QuantityDistributed CHECK (QuantityDistributed >= 0);
+
+-- DEFAULT CONSTRAINTS
+ALTER TABLE Distributions
+ADD CONSTRAINT DF_Distributions_DistributionDate_Default DEFAULT GETDATE() FOR DistributionDate;
+
+ALTER TABLE Donor_Item
+ADD CONSTRAINT DF_Donor_Item_DonationDate_Default DEFAULT GETDATE() FOR DonationDate;
+
+ALTER TABLE Events
+ADD CONSTRAINT DF_Events_StartTime_Default DEFAULT '06:00:00' FOR StartTime;
+
+GO
+
+--USER-DEFINED FUNCTIONS (UDF):
+--UDF1: Calculate the duration of a shift
+CREATE FUNCTION CalculateShiftDuration (@ShiftStart TIME, @ShiftEnd TIME)
+	RETURNS DECIMAL(4,2)
+	AS
+	BEGIN
+		DECLARE @Duration DECIMAL(4,2);
+		SET @Duration = DATEDIFF(MINUTE, @ShiftStart, @ShiftEnd) / 60.0;
+		RETURN @Duration;
+	END;
+
+GO
+
+--UDF2: Calculate the total quantity donated
+CREATE FUNCTION CalculateTotalQuantityDonated (@DonorID INT)
+	RETURNS INT
+	AS
+	BEGIN
+		DECLARE @TotalQuantity INT;
+		SELECT @TotalQuantity = SUM(QuantityDonated) 
+		FROM Donor_Item 
+		WHERE DonorID = @DonorID;
+		RETURN ISNULL(@TotalQuantity, 0); 
+	END;
+
+GO
+
+--UDF3: Calculate the number of volunteers at an event
+CREATE FUNCTION CalculateEventVolunteerCount (@EventID INT)
+	RETURNS INT
+	AS
+	BEGIN
+		DECLARE @VolunteerCount INT;
+		SELECT @VolunteerCount = COUNT(DISTINCT VolunteerID) 
+		FROM Volunteer_Role 
+		WHERE EventID = @EventID;
+		RETURN ISNULL(@VolunteerCount, 0);
+	END;
+
+GO
+
+--UDF4: Get the total number of items distributed to a recipient
 CREATE FUNCTION dbo.GetTotalDistributed(@RecipientID INT)
 RETURNS INT
 AS
@@ -300,3 +353,25 @@ BEGIN
 
     RETURN COALESCE(@Total, 0);
 END;
+
+GO
+
+-- COMPUTED COLUMNS
+--Computed column (contains UDF): ShiftDuration
+ALTER TABLE Volunteer_Role
+ADD ShiftDuration AS dbo.CalculateShiftDuration(ShiftStart, ShiftEnd);
+GO
+
+--Computed column (contains UDF): TotalQuantityDonated
+ALTER TABLE Donors
+ADD TotalQuantityDonated AS dbo.CalculateTotalQuantityDonated(DonorID);
+GO
+
+--Computed column (contains UDF): VolunteerCount
+ALTER TABLE Events
+ADD VolunteerCount AS dbo.CalculateEventVolunteerCount(EventID);
+GO
+
+
+
+GO
