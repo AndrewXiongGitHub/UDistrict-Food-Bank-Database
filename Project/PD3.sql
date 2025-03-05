@@ -287,8 +287,6 @@ ADD CONSTRAINT CHK_Volunteer_Role_ShiftEnd_GreaterThan_ShiftStart CHECK (ShiftEn
 ALTER TABLE Distributions 
 ADD CONSTRAINT CHK_QuantityDistributed CHECK (QuantityDistributed >= 0);
 
-ALTER TABLE Inventory
-ADD CONSTRAINT CHK_Inventory_ExpirationDate_Future CHECK (ExpirationDate > GETDATE());
 
 -- DEFAULT CONSTRAINTS
 ALTER TABLE Distributions
@@ -347,7 +345,7 @@ CREATE FUNCTION CalculateEventVolunteerCount (@EventID INT)
 GO
 
 --UDF4: Get the total number of items distributed to a recipient
-CREATE FUNCTION dbo.GetTotalDistributed(@RecipientID INT)
+CREATE FUNCTION GetTotalDistributed(@RecipientID INT)
 RETURNS INT
 AS
 BEGIN
@@ -378,7 +376,7 @@ ALTER TABLE Events
 ADD VolunteerCount AS dbo.CalculateEventVolunteerCount(EventID);
 GO
 
--- Computed column (contains subquery): TotalItemsDistributed
+-- Computed column (contains UDF): TotalItemsReceived
 ALTER TABLE Recipients
-ADD TotalItemsDistributed AS (SELECT SUM(QuantityDistributed) FROM Distributions WHERE Recipients.RecipientID = Distributions.RecipientID);
+ADD TotalItemsReceived AS dbo.GetTotalDistributed(RecipientID);						   
 GO
