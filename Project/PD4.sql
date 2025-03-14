@@ -66,4 +66,47 @@ EXEC GetVolunteerEventParticipation 'Joni', 'Elcock';
 
 GO
 
+-- Query to find the top 5 donors based on total quantity donated
+/*
+Purpose: This query retrieves the top 5 donors who have contributed the highest quantity of donated items.
+
+Results: The query will return the donor's ID, name, and the total quantity of items they have donated.
+
+Managerial Implications: This query helps food bank managers identify and recognize the most significant contributors.
+It can also aid in donor appreciation efforts and targeting potential high-impact donors for future contributions.
+*/
+SELECT TOP 5 Donors.DonorID, Donors.DonorName, SUM(Donor_Item.QuantityDonated) AS TotalQuantityDonated
+FROM Donors
+JOIN Donor_Item ON Donors.DonorID = Donor_Item.DonorID
+GROUP BY Donors.DonorID, Donors.DonorName
+ORDER BY TotalQuantityDonated DESC;
+GO
+
+
+-- Stored Procedure to Retrieve Donations within a Specific Date Range
+/*
+Purpose: This stored procedure retrieves all donations made within a user-defined date range.
+
+Results: The query returns a list of donations including DonorID, ItemID, DonationDate, and QuantityDonated.
+
+Managerial Implications: This query enables food bank managers to track donation trends over time.
+It helps in identifying high-donation periods and can be useful for planning outreach efforts.
+*/
+CREATE OR ALTER PROCEDURE GetDonationsByDateRange
+(
+    @StartDate DATE,
+    @EndDate DATE
+)
+AS
+BEGIN
+    SELECT DonorID, ItemID, DonationDate, QuantityDonated
+    FROM Donor_Item
+    WHERE DonationDate BETWEEN @StartDate AND @EndDate
+    ORDER BY DonationDate ASC;
+END;
+GO
+
+-- Execute the stored procedure
+EXEC GetDonationsByDateRange '2024-05-01', '2024-07-31';
+GO
 --Your Queries here... 
