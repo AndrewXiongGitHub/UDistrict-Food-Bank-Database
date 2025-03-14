@@ -109,4 +109,48 @@ GO
 -- Execution of stored procedure
 EXEC GetDonationsByDateRange '2024-05-01', '2024-07-31';
 GO
---Your Queries here... 
+
+
+-- Query to identify the top 5 most frequently donated items
+/*
+Purpose: Identifies the top 5 items donated most frequently by total quantity.
+
+Results: Displays the item names along with the total quantity donated.
+
+Managerial Implications: Helps the food bank optimize inventory management by understanding which items are most frequently donated.
+*/
+
+SELECT TOP 5 i.ItemName, SUM(di.QuantityDonated) AS TotalQuantityDonated
+FROM Donor_Item AS di
+    JOIN Items AS i ON di.ItemID = i.ItemID
+GROUP BY i.ItemName
+ORDER BY TotalQuantityDonated DESC;
+GO
+
+-- Stored Procedure to Retrieve Distribution Details for a Specific Recipient
+/*
+Purpose: Retrieves the list of distributions made to a specific recipient, including item details and quantity received.
+
+Results: Provides recipient name, item name, quantity distributed, and distribution date.
+
+Managerial Implications: Helps track recipient history and assess distribution patterns for better resource allocation.
+*/
+
+CREATE OR ALTER PROCEDURE GetRecipientDistributionDetails
+(
+    @RecipientName VARCHAR(255)
+)
+AS
+BEGIN
+    SELECT r.RecipientName, i.ItemName, d.QuantityDistributed, d.DistributionDate
+    FROM Distributions AS d
+        JOIN Recipients AS r ON d.RecipientID = r.RecipientID
+        JOIN Items AS i ON d.ItemID = i.ItemID
+    WHERE r.RecipientName = @RecipientName
+    ORDER BY d.DistributionDate DESC;
+END;
+GO
+
+-- Execution of the stored procedure with an example recipient
+EXEC GetRecipientDistributionDetails 'John Doe';
+GO
