@@ -106,7 +106,7 @@ BEGIN
 END;
 GO
 
--- Execute the stored procedure
+-- Execution of stored procedure
 EXEC GetDonationsByDateRange '2024-05-01', '2024-07-31';
 GO
 --Your Queries here... 
